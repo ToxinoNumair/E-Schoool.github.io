@@ -46,7 +46,7 @@
 				<span class="material-symbols-sharp">manage_accounts</span>
 				<h3>Setting</h3></a>
 				<div class="dropdowncontent">
-				<a href="./admin-profile-setting.php">Profile</a>
+				<a href="admin-profile-setting.php">Profile</a>
         <a href="#">Fee Particular</a>
         <a href="#">Details For Fee Challan</a>
         <a href="#">Grading Criteria</a>
