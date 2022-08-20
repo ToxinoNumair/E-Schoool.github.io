@@ -15,13 +15,14 @@
 </head>
 
 <body>
+	
 	<div class="container">
 		<aside>
 		<div class="top">
 			
 		<div class="logo">
 		
-			<img src="logo.png">
+			<a href="admin-dashboard.php"><img src="logo1.png"></a>
 			
 		</div>
 			
@@ -35,17 +36,17 @@
 		</div>
 			
 			<div class="sidebar">
-			<a href=#>
+			<a href="admin-dashboard.php">
 				<span class="material-symbols-sharp">grid_view</span>
 					<h3>Dashboard</h3>
 					</a>
 
 					<div class="dropdown">
-				<a>
+				<a href="admin-profile-setting.php">
 				<span class="material-symbols-sharp">manage_accounts</span>
 				<h3>Setting</h3></a>
 				<div class="dropdowncontent">
-				<a >Profile</a>
+				<a href="./admin-profile-setting.php">Profile</a>
         <a href="#">Fee Particular</a>
         <a href="#">Details For Fee Challan</a>
         <a href="#">Grading Criteria</a>
@@ -144,8 +145,8 @@
 			</div>
 					<a href=#>
 				<span class="material-symbols-sharp">logout</span>
-					<h3>Logout</h3>
-					</a>
+					<h3>Logout</h3></a>
+					
             
 			</div>
 		</aside>
