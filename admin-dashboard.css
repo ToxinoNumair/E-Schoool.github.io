@@ -133,10 +133,10 @@ background: rgb(0, 0, 0);
 	}
 
 	aside .logo img{
-		margin-left: -30px;
-		margin-top: -80px;
-		width: 15rem;
-		height: 15rem;
+		margin-left: 1.5rem;
+		margin-top: -2rem;
+		width: 8rem;
+		height: 8rem;
 		transition: 0.5s ease-out;
 		
 	}
@@ -854,6 +854,14 @@ display: none;
 		transition: 0.3s ease-out;
 		margin-left: 1rem;
 	}
+	aside .logo img{
+		margin-left: 1.5rem;
+		margin-top: -2rem;
+		width: 8rem;
+		height: 8rem;
+		transition: 0.5s ease-out;
+		
+	}
 	aside .logo h2{
 		transition: 0.3s ease-out;
 		
@@ -867,14 +875,14 @@ display: none;
 	}
 	aside .sidebar a{
 		
-		width: 100%;
+		width: auto;
 		height: 3.4rem;
 	}
 
 	aside .sidebar a:last-child{
-		position: absolute;
+		position: relative;
+		bottom: 1rem;
 		
-		bottom: 5rem;
 	}
 
 	aside .close{
@@ -947,10 +955,22 @@ display: none;
 		text-align: center;
 	
 	}
-	.sidebar .dropdown .dropdowncontent a{
-		font-size: small;
+	
+	.dropdowncontent a{
+		
+		margin-top: 1rem;
+		font-size:small;
 		
 		
 	}
+	.dropdowncontent a:hover{
+		color:  teal;
+		
+	}
+	
+
+
+
+	
 
 }
